@@ -25,3 +25,4 @@ tags:
    把公钥追加到目标服务器
 ## 3. 连接
  - ssh user@host -p port
+ 

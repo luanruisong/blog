@@ -3,31 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://luanruisong.com/</loc>
+    <loc>/</loc>
     <lastmod>2021-01-25T19:08:11+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://luanruisong.com/post/first/</loc>
+    <loc>/post/first/</loc>
     <lastmod>2021-01-25T19:08:11+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://luanruisong.com/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2021-01-25T19:08:11+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://luanruisong.com/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2021-01-25T19:07:26+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://luanruisong.com/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>http://luanruisong.com/tags/</loc>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>

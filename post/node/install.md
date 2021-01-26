@@ -1,6 +1,6 @@
 ---
 title: "linux 安装 nodejs"
-date: "2015-10-10T13:14:01+08:00"
+date: "2015-12-21T13:13:36+08:00"
 description: "linux 指定gcc版本编译安装nodejs"
 categories:
     - "Linux"

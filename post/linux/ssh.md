@@ -19,7 +19,7 @@ tags:
   则不需要生成
 -  生成新的ssh key
   ```
-  ssh-keygen -t rsa -C "your_email@example.com"
+    ssh-keygen -t rsa -C  "your_email@example.com"
   ```
 ## 2. 信任连接
  -  把公钥追加到目标服务器

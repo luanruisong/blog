@@ -24,10 +24,32 @@
   
   <url>
     <loc>/categories/</loc>
+    <lastmod>2020-04-07T21:14:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/development/</loc>
+    <lastmod>2020-04-07T21:14:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/golang/</loc>
+    <lastmod>2020-04-07T21:14:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/golang/reflact/</loc>
+    <lastmod>2020-04-07T21:14:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/reflact/</loc>
+    <lastmod>2020-04-07T21:14:01+08:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
+    <lastmod>2020-04-07T21:14:01+08:00</lastmod>
   </url>
   
 </urlset>

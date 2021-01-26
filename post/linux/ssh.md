@@ -1,6 +1,6 @@
 ---
 title: "ssh 生成信任连接"
-date: "2015-03-07T21:14:01+08:00"
+date: "2015-10-10T13:14:01+08:00"
 description: "ssh 生成信任连接|ssh 不打密码"
 categories:
     - "Linux"

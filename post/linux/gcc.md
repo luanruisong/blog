@@ -27,7 +27,7 @@ tags:
 ### 2.编译安装gcc
 #### 2.1 编译配置
     ```
-        ./configure --prefix=/happyface/gcc-4.9.3 --disable-multilib
+        ./configure --prefix=/x/gcc-4.9.3 --disable-multilib
     ```
 #### 2.2 编译
     ```

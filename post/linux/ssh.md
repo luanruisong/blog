@@ -27,6 +27,6 @@ tags:
    cat ～/.ssh/id_rsa.pub | ssh user@host -p port "cat - >> ~/.ssh/authorized_keys"
    ```
 ## 3. 连接
-    ``` 
-        ssh user@host -p port
-    ```
+   ```
+    ssh user@host -p port
+   ```

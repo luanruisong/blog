@@ -9,14 +9,13 @@ tags:
     - "Reflact"
 ---
 
-
-## reflect包基本基于两个基础类型
+## 1. 前言
+ - reflect包基本基于两个基础类型
 ```go
     reflect.Value //值
     reflect.Type  //类型
-```
-   
-## value/type 的获取方法
+``` 
+- value/type 的获取方法
 ```go
     p := struct{
         Name string
@@ -28,9 +27,7 @@ tags:
     t := reflect.TypeOf(p)   
     v := reflect.ValueOf(p)
 ```
-
-## value/type 可以使用kind函数获得具体类型，大致类型如下
-
+ - value/type 可以使用kind函数获得具体类型，大致类型如下
 ```go
     Bool
     Int
@@ -60,17 +57,17 @@ tags:
     UnsafePointer
 ```
 
-### 一、未知参数的解析
-#### 1.如果kind为基础数据类型可以直接使用.(int)这种方式强转处理
-#### 2.如果kind为ptr（指针） 可以通过 value.Elem() 转换具体值
-#### 3.如果kind为struct 
+## 2 未知参数的解析
+ 1. 如果kind为基础数据类型可以直接使用.(int)这种方式强转处理
+ 2. 如果kind为ptr（指针） 可以通过 value.Elem() 转换具体值 
+ 3. 如果kind为struct 
 ```go
     for i := 0; i < t.NumField(); i++ {
         f := t.Field(i)  //获取结构体属性类型，可以用来获取tag等
         vf := v.Field(i) //获取结构体属性具体值
     }
 ```
-#### 4.如果kind为map
+ 4. 如果kind为map
 ```go
     iter := v.MapRange()//获取map迭代器
     for iter.Next() {
@@ -79,7 +76,7 @@ tags:
         //TODO k/v
     }
 ```
-#### 5.如果kind为map数组或切片
+ 5. 如果kind为map数组或切片
 ```go
     if v.kind() == reflect.Slice || v.kind() == reflect.Array  {
         for idx := 0 ;idx < iv.Len() ; idx ++ {
@@ -89,28 +86,27 @@ tags:
     }
 ```
 
-### 二、未知参数的创建
-#### 1.获取一个未知变量的类型
+## 3、未知参数的创建
+ 1. 获取一个未知变量的类型
 ```go
     //以下两种获取方式都可以
     //这里忽略int等基础类型，主要针对于结构体，结构体指针等
     t := reflect.TypeOf(p)
     t:=reflect.ValueOf(p).Type()
 ```
-#### 2.创建这个变量
+ 2. 创建这个变量
 ```go
      sptr := reflect.New(t)//此时得到结构体指针
      structValue := sptr.Elem() //此时获得结构体变量
 ```
-
-#### 3.创建一个结构体切片
+ 3. 创建一个结构体切片
 ```go
     elemType := reflect.ValueOf(p).Type() //获取切片单个元素的类型
     sliceType := reflect.SliceOf(elemType) //获取结构体切片类型
     sliceValue := reflect.MakeSlice(sliceType, 0, 0) //创建切片
     slicePtr := reflect.New(sliceValue.Type()) //创建切片指针
 ```
-#### 4.创建一个结构体map 
+ 4. 创建一个结构体map 
 ```go
     //获取k/v类型
     kType := reflect.TypeOf(key)
@@ -122,8 +118,8 @@ tags:
     results := reflect.New(mapValue.Type())//指针
 ```
 
-### 二、未知参数的赋值
-#### 1.解析未知结构体并赋值
+## 4、未知参数的赋值
+ 1. 解析未知结构体并赋值
 ```go
     //假设我们获取了一个struct的类型t
     for i := 0; i < t.NumField(); i++ {

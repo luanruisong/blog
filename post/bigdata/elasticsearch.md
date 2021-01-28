@@ -1,9 +1,9 @@
 ---
 title: "初探 es"
-date: 2021-01-28T21:15:34+08:00
+date: 2021-01-28T13:13:36+08:00
 description: "es 使用场景分析"
 categories:
-    - "Big Data"
+    - "BigData"
 tags:
     - "Elasticsearch"
     - "Luence"

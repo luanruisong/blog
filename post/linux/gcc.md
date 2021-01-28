@@ -1,6 +1,6 @@
 ---
 title: "gcc 安装"
-date: "2017-01-16T13:36:01+08:00"
+date: 2017-01-16T13:36:01+08:00
 description: "gcc 安装"
 categories:
     - "Linux"

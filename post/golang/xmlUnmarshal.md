@@ -10,14 +10,16 @@ tags:
 ---
 
 
-## 前置
+## 这都不会？不是有手就行？
 
-    今日报哥给我了一个问题 ：xml解析用go做过吗？
-![](https://gitee.com/luanruisong/blog_img/raw/master//20210129171908.png)
+今日报哥给我了一个问题：
+
+![](https://gitee.com/luanruisong/blog_img/raw/master//20210129171908.png)xml解析用go做过吗？
     
-    当时我的反应是:这都不会？
-![](https://gitee.com/luanruisong/blog_img/raw/master//20210129172846.png)
+当时我的反应是：
 
+![](https://gitee.com/luanruisong/blog_img/raw/master//20210129172846.png)这都不会？
+    
     然后就开始了我的装逼（被打脸）之旅
 
 ## 让我们来康康，发生甚么事了
@@ -59,7 +61,7 @@ tags:
  * 如果这个节点又具有属性，我们还需要他的具体内容，结构体该如何定义？
 
 
-## 打脸
+## 这个光有手，还真不行
 
 现实中，无论我如何定义我的结构体，使用xml的tag 总有一部分解析不出来，所以不得不求助谷歌大大并发现了几个有意思的东西
 
@@ -124,11 +126,11 @@ tags:
     [https://www.onlinetool.io/xmltogo/](https://www.onlinetool.io/xmltogo/)
 
 
-## 结束
+## 敌羞，吾去脱他衣
 
-    问题至此完全解决，我要拿着结果跟我报哥邀功去了
+    问题至此完全解决
 
-![](https://gitee.com/luanruisong/blog_img/raw/master//20210129175003.png)
+![](https://gitee.com/luanruisong/blog_img/raw/master//20210129175003.png)我要拿着结果跟我报哥邀功去了
 
 
 

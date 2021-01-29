@@ -119,6 +119,11 @@ tags:
     [https://studygolang.com/pkgdoc](https://studygolang.com/pkgdoc)
 
 
+ * 另外，跟我一样懒的咸鱼们，你们的福音来了
+    感谢阿水，直接生成它不香么？
+    [https://www.onlinetool.io/xmltogo/](https://www.onlinetool.io/xmltogo/)
+
+
 ## 结束
 
     问题至此完全解决，我要拿着结果跟我报哥邀功去了

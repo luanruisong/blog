@@ -9,6 +9,8 @@ tags:
     - "Luence"
 ---
 
+
+![](https://gitee.com/luanruisong/blog_img/raw/master//20210129122351.png)
 ## 功能
 
  * 分布式的搜索引擎和数据分析引擎

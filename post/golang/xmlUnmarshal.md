@@ -20,7 +20,7 @@ tags:
 
     然后就开始了我的装逼（被打脸）之旅
 
-## 问题
+## 让我们来康康，发生甚么事了
     
     首先，大家都知道，go语言在官方sdk对于json和xml都有基础支持  
     就是  encoding/xml encoding/json 包

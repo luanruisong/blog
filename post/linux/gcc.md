@@ -12,7 +12,8 @@ tags:
 ## GCC安装准备
 
 ### 1.安装所需要的依赖库
-```
+
+```shell
     yum install gmp
     yum install mpfr
     yum install mpc
@@ -20,27 +21,39 @@ tags:
     yum install gmp-devel
     yum install mpc-devel
 ```
-    ps:gcc 还有两个必要的安装条件，再检测配置的时候可能检测不出来
+
+> ps:gcc 还有两个必要的安装条件，再检测配置的时候可能检测不出来
     1.安装gcc 的机器上必须要有gcc
     2.安装gcc 时 需要先安装 gcc-c++
+
 ### 2.编译安装gcc
+
 #### 2.1 编译配置
-```
+
+```shell
     ./configure --prefix=/x/gcc-4.9.3 --disable-multilib
 ```
+
 #### 2.2 编译
-```
+
+```shell
     make -j8//(启用多核编译)
 ```
+
 #### 2.3 安装
-```
+
+```shell
     make install
 ```
+
 #### 2.4 加入系统类库
-```
+
+```shell
     vim /etc/ld.so.conf
 ```
+
 #### 2.5 配置生效
-```
+
+```shell
     ldconfig
 ```

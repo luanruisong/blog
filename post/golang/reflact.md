@@ -125,7 +125,7 @@ tags:
     slicePtr := reflect.New(sliceValue.Type()) //创建切片指针
 ```
 
-- 创建一个结构体map 
+- 创建一个结构体map
 
 ```go
     //获取k/v类型

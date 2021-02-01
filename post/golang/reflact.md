@@ -66,8 +66,8 @@ tags:
 ## 2 未知参数的解析
 
 - 如果kind为基础数据类型可以直接使用.(int)这种方式强转处理
-- 如果kind为ptr（指针） 可以通过 value.Elem() 转换具体值 
-- 如果kind为struct 
+- 如果kind为ptr（指针） 可以通过 value.Elem() 转换具体值
+- 如果kind为struct
 
 ```go
     for i := 0; i < t.NumField(); i++ {

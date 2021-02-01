@@ -15,32 +15,25 @@ tags:
 今日报哥给我了一个问题：xml解析用go做过吗？
 
 ![害羞](https://gitee.com/luanruisong/blog_img/raw/master//20210129171908.png)
-
 当时我的反应是：这都不会？
-
 ![震惊](https://gitee.com/luanruisong/blog_img/raw/master//20210129172846.png)
-
-    然后就开始了我的装逼（被打脸）之旅
+然后就开始了我的装逼（被打脸）之旅
 
 ## 2. 让我们来康康，发生甚么事了
 
-    首先，大家都知道，go语言在官方sdk对于json和xml都有基础支持  
-    就是  encoding/xml encoding/json 包
-    我们惯性思维 解析xml嘛，跟json一样，一个结构体甩你脸上 直接Unmarshal就好
+> 首先，大家都知道，go语言在官方sdk对于json和xml都有基础支持  
+就是  encoding/xml encoding/json 包
+我们惯性思维 解析xml嘛，跟json一样，一个结构体甩你脸上 直接Unmarshal就好
 
-    想象中
+想象中
 
 ```go
-
     xmlStr := "管他娘的什么xml"
-
     m := XmlItems{} //对着结构写的结构体
-
     xml.Unmarshal([]byte(str), &m)
-
 ```
 
-    然而，快乐的时光总是短暂的，我报哥直接甩给了我一个xml
+然而，快乐的时光总是短暂的，我报哥直接甩给了我一个xml
 
 ```xml
     <?xml version="1.0" encoding="utf-8"?>
@@ -54,7 +47,7 @@ tags:
     </items>
 ```
 
-    天真的我还在想这个结构体怎么对着撸的时候，发现了个问题
+天真的我还在想这个结构体怎么对着撸的时候，发现了几个问题
 
 * 如果按照常规思路，子节点直接是属性，那么对于本身就是属性的地方解析有啥不同？
 * 如何区分我这是个子节点的内容，还是当前节点的属性？
@@ -66,7 +59,7 @@ tags:
 
 * 对着xml撸结构体的时候，有几个东西要注意一下
   
-```
+```go
     xml.Name //作用域
     xml.Attr //可以直接解析属性
     `xml,xxxx` //根据不同情况附加各种写法

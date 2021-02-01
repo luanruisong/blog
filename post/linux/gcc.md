@@ -7,6 +7,7 @@ categories:
 tags:
     - "Linux"
     - "gcc"
+    - "g++"
 ---
 
 ## GCC安装准备

@@ -15,8 +15,11 @@ tags:
 今日报哥给我了一个问题：xml解析用go做过吗？
 
 ![害羞](https://gitee.com/luanruisong/blog_img/raw/master//20210129171908.png)
+
 当时我的反应是：这都不会？
+
 ![震惊](https://gitee.com/luanruisong/blog_img/raw/master//20210129172846.png)
+
 然后就开始了我的装逼（被打脸）之旅
 
 ## 2. 让我们来康康，发生甚么事了

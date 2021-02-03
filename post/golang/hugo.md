@@ -30,6 +30,7 @@ tags:
 ## Hugo
 
  1. 什么是Hugo
+
     P话不多说，上链接 --> [关于什么是Hugo](http://baidu.luanruisong.com/?q=%E4%BB%80%E4%B9%88%E6%98%AFHugo)
 
     相信看过了链接的你，一定对与Hugo 有了一定的认识，那么我们继续

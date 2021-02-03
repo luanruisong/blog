@@ -115,20 +115,20 @@ tags:
     Menus:
         main :
             - Name : "about"
-            URL : "/about/"
-            Weight: 4
+              URL : "/about/"
+              Weight: 4
             - Name : "tags"
-            URL : "/tags/"
-            Weight: 2
+              URL : "/tags/"
+              Weight: 2
             - Name : "categories"
-            URL : "/categories/"
-            Weight: 1
+              URL : "/categories/"
+              Weight: 1
             - Name : "github"
-            URL : "https://github.com/luanruisong"
-            Weight: 3
+              URL : "https://github.com/luanruisong"
+              Weight: 3
             - Name : "Links"
-            URL : "/links/"
-            Weight: 10
+              URL : "/links/"
+              Weight: 10
     ```
 
 ## 花里胡哨的骚操作

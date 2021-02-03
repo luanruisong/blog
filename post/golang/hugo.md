@@ -55,8 +55,8 @@ tags:
       - 装Hugo
 
     ```shell
-        export GOPATH=$HOME/go
-        go get -v github.com/gohugoio/hugo
+       $ export GOPATH=$HOME/go
+       $ go get -v github.com/gohugoio/hugo
     ```
 
  3. Hugo的使用
@@ -81,20 +81,21 @@ tags:
 
  4. 其他
     - 关于md文件的头部
+
         每个md文件的头部都会用 toml/yaml格式标注的本篇blog的相关信息，但是官方演示代码不够全面，这边给出一个相对比较全的
 
-        ```yaml
-        ---
-        title: "Hugo 搭建指南"
-        date: 2021-02-03T13:14:01+08:00
-        description: "搭建 Golang 的blog生成工具 Hugo"
-        categories:
-            - "Blog"
-        tags:
-            - "Golang"
-            - "Hugo"
-        ---
-        ```
+    ```yaml
+    ---
+    title: "Hugo 搭建指南"
+    date: 2021-02-03T13:14:01+08:00
+    description: "搭建 Golang 的blog生成工具 Hugo"
+    categories:
+        - "Blog"
+    tags:
+        - "Golang"
+        - "Hugo"
+    ---
+    ```
 
     - 内置的链接
 
@@ -106,29 +107,29 @@ tags:
     - 关于 config.toml/config.yaml
         具体还是要根据主题来调整配置，我就先上几个我这边用到的通用配置好了
 
-        ```yaml
-        baseURL : "http://luanruisong.com"
-        languageCode : "en-us"
-        title : "anwu's blog"
-        theme : "hyde"
-        Menus:
-        main :
-            - Name : "about"
-            URL : "/about/"
-            Weight: 4
-            - Name : "tags"
-            URL : "/tags/"
-            Weight: 2
-            - Name : "categories"
-            URL : "/categories/"
-            Weight: 1
-            - Name : "github"
-            URL : "https://github.com/luanruisong"
-            Weight: 3
-            - Name : "Links"
-            URL : "/links/"
-            Weight: 10
-        ```
+    ```yaml
+    baseURL : "http://luanruisong.com"
+    languageCode : "en-us"
+    title : "anwu's blog"
+    theme : "hyde"
+    Menus:
+    main :
+        - Name : "about"
+        URL : "/about/"
+        Weight: 4
+        - Name : "tags"
+        URL : "/tags/"
+        Weight: 2
+        - Name : "categories"
+        URL : "/categories/"
+        Weight: 1
+        - Name : "github"
+        URL : "https://github.com/luanruisong"
+        Weight: 3
+        - Name : "Links"
+        URL : "/links/"
+        Weight: 10
+    ```
 
 ## 花里胡哨的骚操作
 

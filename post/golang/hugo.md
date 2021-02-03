@@ -55,7 +55,7 @@ tags:
 
     ```shell
         export GOPATH=$HOME/go
-        go get -v github.com/spf13/hugo
+        go get -v github.com/gohugoio/hugo
     ```
 
  3. Hugo的使用

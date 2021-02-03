@@ -30,10 +30,11 @@ tags:
 ## Hugo
 
  1. 什么是Hugo
-    关于什么是Hugo [链接](http://baidu.luanruisong.com/?q=%E4%BB%80%E4%B9%88%E6%98%AFHugo)
+    二话不说，线上链接 --> [关于什么是Hugo](http://baidu.luanruisong.com/?q=%E4%BB%80%E4%B9%88%E6%98%AFHugo)
+
     相信看过了链接的你，一定对与Hugo 有了一定的认识，那么我们继续
-    ![溜](https://gitee.com/luanruisong/blog_img/raw/master//20210203164804.png)
-    溜~
+
+    溜~![溜](https://gitee.com/luanruisong/blog_img/raw/master//20210203164804.png)
 
  2. Hugo的安装
     - 二进制安装 (Mac用户专享)
@@ -43,8 +44,9 @@ tags:
     ```
 
     - 二进制安装 (Linux用户专享)
-      - 自己去翻release吧 传送门 --> [github](https://github.com/gohugoio/hugo/releases)
-    
+
+      - 我懒了自己去翻release吧 传送门 --> [github](https://github.com/gohugoio/hugo/releases)
+
     - 源码安装
 
       - [装git](http://baidu.luanruisong.com/?q=%E8%A3%85git)
@@ -83,7 +85,7 @@ tags:
         ```yaml
         ---
         title: "Hugo 搭建指南"
-        date: 2020-04-07T21:14:01+08:00
+        date: 2021-02-03T13:14:01+08:00
         description: "搭建 Golang 的blog生成工具 Hugo"
         categories:
             - "Blog"
@@ -158,6 +160,7 @@ cd $1 && hugo
 - 再再再次，再github上开启一个webhook，指向到nginx
 - 再再再再次，触发webhook的服务(这里我是使用go写了个小服务)，直接去调用上面那两个脚本即可
 - 再再再再再次（我保证最后一个），只需要再本机clone最开始的md仓库，写markdown 然后push就好啦。
+- 这样我们就完成了一个 ***push->webhook->pull->build*** 的循环
 
 ## 完结撒花
 

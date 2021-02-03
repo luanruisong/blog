@@ -41,7 +41,7 @@ tags:
     - 二进制安装 (Mac用户专享)
 
     ```shell
-        brew install hugo
+       lrs@Mr-CIH> brew install hugo
     ```
 
     - 二进制安装 (Linux用户专享)
@@ -55,8 +55,8 @@ tags:
       - 装Hugo
 
     ```shell
-       $ export GOPATH=$HOME/go
-       $ go get -v github.com/gohugoio/hugo
+       lrs@Mr-CIH> export GOPATH=$HOME/go
+       lrs@Mr-CIH> go get -v github.com/gohugoio/hugo
     ```
 
  3. Hugo的使用
@@ -64,19 +64,19 @@ tags:
     - 生成站点
 
     ```shell
-       $ hugo new site /path/to/site
+       lrs@Mr-CIH> hugo new site /path/to/site
     ```
 
     - 创建一个 about 页面
 
     ```shell
-       $ hugo new about.md
+       lrs@Mr-CIH> hugo new about.md
     ```
 
     - 生成静态目录
 
     ```shell
-       $ hugo    
+       lrs@Mr-CIH> hugo    
     ```
 
  4. 其他

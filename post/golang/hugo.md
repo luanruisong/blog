@@ -166,6 +166,10 @@ cd $1 && hugo
 - 再再再再再次（我保证最后一个），只需要再本机clone最开始的md仓库，写markdown 然后push就好啦。
 - 这样我们就完成了一个 ***push->webhook->pull->build*** 的循环
 
+流程图奉上 （画完图觉得有点蠢，然而我不想改了）
+
+![流程](https://gitee.com/luanruisong/blog_img/raw/master//20210203190702.png)
+
 ## 完结撒花
 
 至此，我终于完美的水了一篇关于搭建Hugo的blog，完美~

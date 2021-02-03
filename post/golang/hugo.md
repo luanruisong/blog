@@ -18,7 +18,7 @@ tags:
 
 最初的几篇也都是取自于原本自己的云笔记。
 
-工作几年来，攒下的笔记不少，但是可以用作blog的缺寥寥无几。
+工作几年来，攒下的笔记不少，但是可以用作blog的寥寥无几。
 
 本来想直接贴链接水几篇blog来的，对于我这个想法，身边的朋友都表示非常支持
 ![人干事](https://gitee.com/luanruisong/blog_img/raw/master//20210203163437.png)
@@ -30,7 +30,7 @@ tags:
 ## Hugo
 
  1. 什么是Hugo
-    二话不说，线上链接 --> [关于什么是Hugo](http://baidu.luanruisong.com/?q=%E4%BB%80%E4%B9%88%E6%98%AFHugo)
+    P话不多说，上链接 --> [关于什么是Hugo](http://baidu.luanruisong.com/?q=%E4%BB%80%E4%B9%88%E6%98%AFHugo)
 
     相信看过了链接的你，一定对与Hugo 有了一定的认识，那么我们继续
 
@@ -45,7 +45,7 @@ tags:
 
     - 二进制安装 (Linux用户专享)
 
-      - 我懒了自己去翻release吧 传送门 --> [github](https://github.com/gohugoio/hugo/releases)
+      - 我懒了，去翻release吧 传送门 --> [github](https://github.com/gohugoio/hugo/releases)
 
     - 源码安装
 
@@ -63,19 +63,19 @@ tags:
     - 生成站点
 
     ```shell
-        hugo new site /path/to/site
+       $ hugo new site /path/to/site
     ```
 
     - 创建一个 about 页面
 
     ```shell
-        hugo new about.md
+       $ hugo new about.md
     ```
 
     - 生成静态目录
 
     ```shell
-        hugo    
+       $ hugo    
     ```
 
  4. 其他
@@ -98,11 +98,12 @@ tags:
     - 内置的链接
 
         经过我坚持不懈的暴力破解（~~实际上就是瞎蒙~~）发现了以下两个
+
       - /tags/ （标签集合）
       - /categories/ （分类集合）
 
     - 关于 config.toml/config.yaml
-        具体还是要根据主体来调整配置，我就先上几个我这边用到的通用配置好了
+        具体还是要根据主题来调整配置，我就先上几个我这边用到的通用配置好了
 
         ```yaml
         baseURL : "http://luanruisong.com"
@@ -134,7 +135,7 @@ tags:
 
 ![美滋滋](https://gitee.com/luanruisong/blog_img/raw/master//20210203170827.png)
 
-我发现使用nodejs构建静态blog的童鞋们，都喜欢把整个静态也没丢到git上去
+我发现使用nodejs构建静态blog的童鞋们，都喜欢把整个静态页面丢到git上去
 
 对我来说，每次要上传辣么大的文件，实在是考验我与github之间这若即若离的关系
 

@@ -1,6 +1,6 @@
 ---
 title: "Hugo 搭建指南"
-date: 2020-04-07T21:14:01+08:00
+date: 2021-02-03T13:14:01+08:00
 description: "搭建 Golang 的blog生成工具 Hugo"
 categories:
     - "Blog"

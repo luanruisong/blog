@@ -14,17 +14,19 @@ tags:
 是的，无情的blog机器又来了
 ![酷酷的](https://gitee.com/luanruisong/blog_img/raw/master//20210205001956.png)
 
-继上次更新完[《Hugo 搭建指南》](http://luanruisong.com/post/blog/hugo/) 之后啊不知道为什么，总有一种会当凌绝顶的感jio
+继上次更新完[《Hugo 搭建指南》](http://luanruisong.com/post/blog/hugo/) 总有一种会当凌绝顶的感jio
 
 ![膨胀](https://gitee.com/luanruisong/blog_img/raw/master//20210205002610.png)
 
-然而在逛别人blog的过程中，对于hexo生产的网站那些花里胡哨的效果，当然还是嗤之以鼻（~~口水横流~~）
+然而在逛别人blog的过程中，对于hexo生成的那些网站花里胡哨的效果，当然还是嗤之以鼻（~~口水横流~~）的
 
 ![口水](https://gitee.com/luanruisong/blog_img/raw/master//20210205002841.gif)
 
-然而，作为一个服务端开发工程师，实打实的知道自己不应该话费经理在一些花里胡哨的东西上！
+然而，作为一个服务端开发工程师，实打实的知道自己不应该花费精力在一些花里胡哨的东西上！
 
-但但但但但但是，有一个功能是万万不能没有的，那就是『金主爸爸的爱』 俗称 "打赏"
+但但但但但但是，有一个功能是万万不能没有的。
+
+那就是 **『金主爸爸的爱』** 俗称 **『打赏』**
 
 ![暴富](https://gitee.com/luanruisong/blog_img/raw/master//20210205003230.gif)
 
@@ -38,7 +40,7 @@ tags:
 
 由于我们的blog是使用Hugo搭建的，对于这部分的主题，插件功能还不太好挖掘（~~其实就是我懒得去翻那一堆英文的文档~~）
 
-所以我本次选择了使用纯前端js的插件，这样既简单，又可以满足我需要。同事也打开了通往财富的道路。
+所以我本次选择了使用纯前端js的插件，这样既简单，又可以满足我需要。同时也打开了通往财富的道路。
 
 ![小机灵鬼](https://gitee.com/luanruisong/blog_img/raw/master//20210205003815.gif)
 
@@ -76,6 +78,8 @@ new tctip({
 
 这样在你的网站右边就会有一个悬浮窗来给金主爸爸开启通道
 
+当然，我是不介意各位看官现在扫码在线测试一下的
+
 ![打赏截图](https://gitee.com/luanruisong/blog_img/raw/master//20210205004240.png)
 
 顺带一提，还支持多个打赏通道和9个按钮样式的支持呦~
@@ -84,11 +88,7 @@ new tctip({
 
 ![懒人福音](https://gitee.com/luanruisong/blog_img/raw/master//20210205004508.gif)
 
-顺便附带一个   [参数说明](https://github.com/greedying/tctip#%E5%8F%82%E6%95%B0%E8%AF%B4%E6%98%8E)
-
-至此
-
-懒宝宝们的打赏插件集成，就这样完美的结束了呢。
+当然，对于喜欢折腾的小伙伴，送你们一个[参数说明](https://github.com/greedying/tctip#%E5%8F%82%E6%95%B0%E8%AF%B4%E6%98%8E)
 
 ## 后记
 

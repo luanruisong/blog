@@ -1,11 +1,12 @@
 ---
 title: "Blog 打赏插件"
 date: 2021-02-04T13:14:01+08:00
-description: "搭建 Golang 的blog生成工具 Hugo"
+description: "Hugo 集成打赏插件"
 categories:
     - "Blog"
 tags:
     - "Reward"
+    - "Hugo"
 ---
 
 ## 序

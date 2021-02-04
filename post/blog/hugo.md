@@ -5,7 +5,6 @@ description: "搭建 Golang 的blog生成工具 Hugo"
 categories:
     - "Blog"
 tags:
-    - "Golang"
     - "Hugo"
 ---
 

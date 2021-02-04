@@ -84,6 +84,8 @@ new tctip({
 
 ![懒人福音](https://gitee.com/luanruisong/blog_img/raw/master//20210205004508.gif)
 
+顺便附带一个   [参数说明](https://github.com/greedying/tctip#%E5%8F%82%E6%95%B0%E8%AF%B4%E6%98%8E)
+
 至此
 
 懒宝宝们的打赏插件集成，就这样完美的结束了呢。

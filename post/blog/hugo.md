@@ -6,6 +6,11 @@ categories:
     - "Blog"
 tags:
     - "Hugo"
+keywords:
+    - "Blog"
+    - "Hugo"
+    - "Golang"
+    - "Go"
 ---
 
 

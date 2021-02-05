@@ -7,6 +7,12 @@ categories:
 tags:
     - "Reward"
     - "Hugo"
+keywords:
+    - "Blog"
+    - "Hugo"
+    - "Reward"
+    - "Wechat"
+    - "Alipay"
 ---
 
 ## 序

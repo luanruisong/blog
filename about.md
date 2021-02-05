@@ -2,7 +2,10 @@
 title: "About Me"
 date: 2013-03-08T09:07:26+08:00
 description: "你好，北京！"
-keywords: "about,me,aboutMe,anwu"
+keywords:
+    - "about"
+    - "me"
+    - "aboutMe"
 ---
 
 

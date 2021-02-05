@@ -14,4 +14,4 @@ description: "你好，北京！"
   
 - Email：82623629@qq.com
 
-![走](https://gitee.com/luanruisong/blog_img/raw/master//20210203142717.png)
+![走](http://blog-img.luanruisong.com/blog/img/20210205135322.png)

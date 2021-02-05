@@ -12,7 +12,8 @@ tags:
 ## 序
 
 是的，无情的blog机器又来了
-![酷酷的](https://gitee.com/luanruisong/blog_img/raw/master//20210205001956.png)
+
+![酷酷的](http://blog-img.luanruisong.com/blog/img/20210205131148.png)
 
 继上次更新完[《Hugo 搭建指南》](http://luanruisong.com/post/blog/hugo/) 总有一种会当凌绝顶的感jio
 

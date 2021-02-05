@@ -15,7 +15,7 @@ keywords:
     - "大数据"
 ---
 
-![像画吗](https://gitee.com/luanruisong/blog_img/raw/master//20210129122351.png)
+
 
 ## 功能
 

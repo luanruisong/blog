@@ -15,7 +15,7 @@ tags:
 
 ![酷酷的](http://blog-img.luanruisong.com/blog/img/20210205131148.png)
 
-继上次更新完[《Hugo 搭建指南》](hugo/) 总有一种会当凌绝顶的感jio
+继上次更新完[《Hugo 搭建指南》](/hugo/) 总有一种会当凌绝顶的感jio
 
 ![膨胀](http://blog-img.luanruisong.com/blog/img/20210205131434.png)
 

@@ -145,7 +145,7 @@ keywords:
     - "搜索引擎优化"
 ```
 
-本身关键词的标签只是一个html标签，由于我们的Hogu主题没有携带keywords标签，所以我决定，自己改造一下
+本身关键词的标签只是一个html标签，由于我们的Hugu主题没有携带keywords标签，所以我决定，自己改造一下
 
 我选择在 themes/hyde/layouts/partials/head.html加入一个meta
 

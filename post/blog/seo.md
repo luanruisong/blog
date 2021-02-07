@@ -157,7 +157,7 @@ keywords:
 
 #### 关于描述
 
-描述相对就要简单的多，对于Hogo来讲，会吧markdown头部的description放入到生成的静态页面里
+描述相对就要简单的多，对于Hugo来讲，会吧markdown头部的description放入到生成的静态页面里
 
 ```html
 <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
@@ -169,10 +169,10 @@ keywords:
 
 ![人间疾苦](http://blog-img.luanruisong.com/blog/img/20210207200247.png)
 
-就在我意犹未尽之时，嘉哥表示
+就在我准备继续轰炸，这时嘉哥表示
 
 ![溜了](http://blog-img.luanruisong.com/blog/img/20210207200016.png)
 
-唉，这男人啊
+哦，我这该死的，无处安放的，溢出屏幕的魅力~
 
 ![可爱](http://blog-img.luanruisong.com/blog/img/20210207200132.png)

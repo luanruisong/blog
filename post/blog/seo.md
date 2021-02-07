@@ -173,6 +173,6 @@ keywords:
 
 ![溜了](http://blog-img.luanruisong.com/blog/img/20210207200016.png)
 
-哦，我这该死的，无处安放的，溢出屏幕的魅力~
+哦，我这该死的，无处安放的，溢出屏幕的魅力啊~
 
 ![可爱](http://blog-img.luanruisong.com/blog/img/20210207200132.png)

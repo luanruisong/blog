@@ -1,7 +1,7 @@
 ---
 title: "SEO 两三事"
 date: 2021-02-07T10:14:01+08:00
-description: "SEO 相关"
+description: "SEO 相关基础知识学习"
 categories:
     - "Blog"
 tags:
@@ -67,7 +67,7 @@ keywords:
 
 ~~天地良心，这个备注我是被逼的~~
 
-医美我嘉哥，人美话不多，专业SEO 30年(~~我觉得他们公司能上市全是他的功劳~~)
+医美我嘉哥，人美话不多，专业SEO三十年
 
 人选确定，果断像我嘉哥求助(~~疯狂微信轰炸~~)
 
@@ -147,9 +147,7 @@ keywords:
 
 本身关键词的标签只是一个html标签，由于我们的Hogu主题没有携带keywords标签，所以我决定，自己改造一下
 
-我选择在 themes/hyde/layouts/partials/head.html
-
-加入一个meta
+我选择在 themes/hyde/layouts/partials/head.html加入一个meta
 
 ```html
 <meta name="keywords" content="{{if .IsHome}}{{ $.Site.Params.keywords }}{{else}}{{range $idx,$value := .Keywords }}{{if lt 0 $idx}},{{end}}{{$value}}{{end}}{{end}}" />

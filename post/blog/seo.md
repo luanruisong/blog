@@ -50,7 +50,7 @@ keywords:
     > 一般来讲，使用静态网页生成工具来生成的静态页面都有sitemap生成，我们只需要把sitemap的具体链接提交给百度即可
     >
     > 如 我使用hugo生成的静态页再根目录即可找到 sitemap.xml
-    > 
+    >
     > 所以我们 直接像百度sitemap 提交 luanruisong.com/sitemap.xml
 
     - 手动提交

@@ -47,7 +47,7 @@ keywords:
 
 |框架|支持数据库|star| doc |
 | --- | --- | --- | --- |
-|xorm| mysql、mymysql、postgres、tidb、sqlite、mssql、oracle| ![star](https://img.shields.io/github/stars/go-xorm/xorm?style=for-the-badge&logo=appveyor)| [xorm docs](https://xorm.io/)
+|xorm| mysql、postgres、tidb、sqlite、mssql、oracle| ![star](https://img.shields.io/github/stars/go-xorm/xorm?style=for-the-badge&logo=appveyor)| [xorm docs](https://xorm.io/)
 |gorm|mysql、postgre、sqlite、sqlserver| ![star](https://img.shields.io/github/stars/go-gorm/gorm?style=for-the-badge&logo=appveyor)|[gorm docs](https://gorm.io/)|
 |upper/db|PostgreSQL, MySQL, SQLite, MSSQL, QL and MongoDB|![star](https://img.shields.io/github/stars/upper/db?style=for-the-badge&logo=appveyor)|[upper/db docs](https://upper.io/db.v3)|
 

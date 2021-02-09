@@ -47,9 +47,9 @@ keywords:
 
 |框架|支持数据库|star| doc |
 | --- | --- | --- | --- |
-|xorm| mysql、postgres、tidb、sqlite、mssql、oracle| ![star](https://img.shields.io/github/stars/go-xorm/xorm)| [xorm docs](https://xorm.io/)
-|gorm|mysql、postgre、sqlite、sqlserver| ![star](https://img.shields.io/github/stars/go-gorm/gorm)|[gorm docs](https://gorm.io/)|
-|upper/db|mysql、postgre、sqlite、sqlserver、mongodb|![star](https://img.shields.io/github/stars/upper/db)|[upper/db docs](https://upper.io/db.v3)|
+|xorm| mysql、postgresql、tidb、sqlite、mssql、oracle| ![star](https://img.shields.io/github/stars/go-xorm/xorm)| [xorm docs](https://xorm.io/)
+|gorm|mysql、postgresql、sqlite、sqlserver| ![star](https://img.shields.io/github/stars/go-gorm/gorm)|[gorm docs](https://gorm.io/)|
+|upper/db|mysql、postgresql、sqlite、sqlserver、mongodb|![star](https://img.shields.io/github/stars/upper/db)|[upper/db docs](https://upper.io/db.v3)|
 
 至于我们写的，那毕竟是妥妥的非主流框架了
 

@@ -172,7 +172,7 @@ Process finished with exit code 0
 
 这样，基本的sql生成器就完成了，虽然还有很多不足之处，但是基础的CRUD操作已经满足了。
 
-同时也基本满足了我们1，2两个目标，下一步就是本人最期待的golang relect包的环节（~~大年初一就这样了，不准备继续下去了~~）
+同时也基本满足了我们1，2两个目标，下一步就是本人最期待的golang relect包的环节（~~大过年的，今天就这样了~~）
 
 ![期待](http://blog-img.luanruisong.com/blog/img/20210212214038.png)
 

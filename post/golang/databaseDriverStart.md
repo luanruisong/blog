@@ -7,15 +7,18 @@ categories:
 tags:
     - "Golang"
     - "Reflact"
-    - "DataBaseDriver"
-    - "sql"
+    - "database"
+    - "ORM"
 keywords:
     - "Golang"
     - "Go"
     - "Reflact"
     - "sqlDriver"
+    - "database"
+    - "数据库"
     - "数据库驱动"
-    - "sql"
+    - "SQL"
+    - "ORM"
 ---
 
 
@@ -65,7 +68,7 @@ keywords:
     > 根据Map/Struct/Native 等方式生成sql
 
 2. 数据迭代器
-    > 将sql.Result进行迭代，封装后进行 指针赋值
+    > 将sql.Result进行迭代，封装后进行指针赋值
 
 3. 数据库特性及扩展
     > 这部分相对就比较零散了，比如Tx等功能的支持，sql方言的处理，常用sql的工具封装，等等

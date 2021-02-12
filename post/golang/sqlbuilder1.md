@@ -33,9 +33,9 @@ keywords:
 
 ![挨打](http://blog-img.luanruisong.com/blog/img/20210212182720.png)
 
-文章代码都会收录再 [gitbug](https://github.com/luanruisong/borm)当中，想看看的同学请自取
+文章代码都会收录在[gitbug](https://github.com/luanruisong/borm)当中，想看看的同学请自取
 
-另外，以减少麻烦为第一原则，我们本着mysql是第一生产力（~~就是懒得处理方言~~）的原则，本文所有示例均以mysql为准。
+另外，以减少麻烦为第一原则，我们本着mysql是第一生产力（~~就是懒得处理方言~~）为目标，本文所有示例均以mysql为准。
 
 复杂sql也不在我们本次讨论范围之内，我们的目标是借由 orm的方式探究更高级更优雅的golang编码，而不需要拘泥于完整的orm框架实现
 
@@ -85,7 +85,7 @@ type (
 
 1. Sql 不用多说，用于最终的sql和参数的获取
 
-2. SqlBuilder 用于基础insert/update/delete 语句的组装
+2. SqlBuilder 用于基础insert/update/delete 语句的组装（~~这里偷了个懒使用set的方式来进行insert语句的处理~~）
 
 3. Selector 这个就比较麻烦了，由于查询语句比较复杂，这里定义了基本的查询结构，Selector 也是用于查询语句的组装
 
@@ -168,7 +168,13 @@ PASS
 Process finished with exit code 0
 ```
 
+### 后记
+
 这样，基本的sql生成器就完成了，虽然还有很多不足之处，但是基础的CRUD操作已经满足了。
+
+同时也基本满足了我们1，2两个目标，下一步就是本人最期待的golang relect包的环节（~~大年初一就这样了，不准备继续下去了~~）
+
+![期待](http://blog-img.luanruisong.com/blog/img/20210212214038.png)
 
 至此，我们第一篇关于sqlBuilder的文章到此就结束了呢。
 

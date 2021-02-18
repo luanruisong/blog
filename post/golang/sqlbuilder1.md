@@ -9,6 +9,7 @@ tags:
     - "Reflact"
     - "database"
     - "ORM"
+    - "BORM"
 keywords:
     - "Golang"
     - "Go"
@@ -143,7 +144,7 @@ func TestSelect(t *testing.T) {
 
 单元测试的运行结果
 
-```shell
+```go
 
 === RUN   TestInsert
     sql_test.go:13: insert into table set a = ?,b = ?,c = ?

@@ -9,6 +9,7 @@ tags:
     - "Reflact"
     - "database"
     - "ORM"
+    - "BORM"
 keywords:
     - "Golang"
     - "Go"

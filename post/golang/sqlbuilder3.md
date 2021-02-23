@@ -165,11 +165,7 @@ func StructToWhere(i interface{}) (where string, whereArgs []interface{}) {
     )
     _ = reflectx.StructRange(i, func(t reflect.StructField, v reflect.Value) error {
         //获取tag，也就是自定义的column
-        column := t.Tag.Get("db")
-        if len(column) == 0 {
-            //入无自定义column，取field名称的蛇形
-            column = stringx.SnakeName(t.Name)
-        }
+        column := ColumnName(t)
         // "-" 表示忽略，空数据 也直接跳过
         if column == "-" || reflectx.IsNull(v) {
             return nil
@@ -181,6 +177,7 @@ func StructToWhere(i interface{}) (where string, whereArgs []interface{}) {
     where = strings.Join(whereList, " and ")
     return
 }
+
 ```
 
 继续testCase

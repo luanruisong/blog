@@ -20,6 +20,7 @@ keywords:
     - "数据库驱动"
     - "SQL"
     - "ORM"
+    - "insert"
 ---
 
 ### 序

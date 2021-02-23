@@ -1,6 +1,6 @@
 ---
 title: "sqlbuilder（三）"
-date: 2021-02-18T13:14:01+08:00
+date: 2021-02-23T13:14:01+08:00
 description: "Golang 基于database/sql 包封装一个自用的数据库驱动 -- 自动update"
 categories:
     - "Development"
@@ -20,6 +20,7 @@ keywords:
     - "数据库驱动"
     - "SQL"
     - "ORM"
+    - "update"
 ---
 
 ### 序
@@ -153,7 +154,7 @@ PASS
 
 自动拆解struct的工具我们基本上已经写好了，但是从struct到Where的转换，目前还是没有
 
-并且由于 struct到where条件的转换，再本次的三个目标都比较重要，所以放在磨刀环节
+并且由于 struct到where条件的转换，在本次的三个目标都比较重要，所以放在磨刀环节
 
 上代码
 
@@ -266,7 +267,7 @@ func HalfAutoUpdate(set interface{}, where interface{}) (SqlBuilder, error) {
 
 所以我准备加入一个tag 叫做pk，当我们识别到pk==1的时候 主动把他作为主键update的条件
 
-所以再structRange的时候，获取完StructField，就开始进行分道扬镳了
+所以在structRange的时候，获取完StructField，就开始进行分道扬镳了
 
 ![骨灰](http://blog-img.luanruisong.com/blog/img/20210223181108.png)
 

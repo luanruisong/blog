@@ -254,7 +254,7 @@ func HalfAutoUpdate(set interface{}, where interface{}) (SqlBuilder, error) {
     }
     whereSql, whereArgs := StructToWhere(where)
     if len(whereSql) > 0 {
-        sb.Where(whereSql, whereArgs)
+       sb.Where(whereSql, whereArgs...)
     }
     return sb, nil
 }

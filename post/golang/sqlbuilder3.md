@@ -27,11 +27,11 @@ keywords:
 
 复工回来，除了第一天比较清闲之外，后续的工作稍显忙碌
 
-![忙](http://blog-img.luanruisong.com/blog/img/20210223164942.gif)
+![忙](https://blog-img.luanruisong.com/blog/img/20210223164942.gif)
 
 忙碌的需求告一段落，今天继续来整个活
 
-![整活](http://blog-img.luanruisong.com/blog/img/20210223165127.png)
+![整活](https://blog-img.luanruisong.com/blog/img/20210223165127.png)
 
 老样子，先上个文章合集 [[SqlDriver]](/tags/borm/)
 
@@ -58,7 +58,7 @@ keywords:
 ### 磨刀
 
 老样子，先磨刀
-![磨刀](http://blog-img.luanruisong.com/blog/img/20210223170301.png)
+![磨刀](https://blog-img.luanruisong.com/blog/img/20210223170301.png)
 
 先把根据结构体获取表名的函数提取出来，这里面用到的地方会比较多
 
@@ -263,13 +263,13 @@ func HalfAutoUpdate(set interface{}, where interface{}) (SqlBuilder, error) {
 
 这样的半自动基本上已经ok，虽然半自动也挺好，但是我还是希望进行全自动的处理,尤其是进行了两次的结构体遍历，让人十分不爽
 
-![不爽](http://blog-img.luanruisong.com/blog/img/20210223180750.png)
+![不爽](https://blog-img.luanruisong.com/blog/img/20210223180750.png)
 
 所以我准备加入一个tag 叫做pk，当我们识别到pk==1的时候 主动把他作为主键update的条件
 
 所以在structRange的时候，获取完StructField，就开始进行分道扬镳了
 
-![骨灰](http://blog-img.luanruisong.com/blog/img/20210223181108.png)
+![骨灰](https://blog-img.luanruisong.com/blog/img/20210223181108.png)
 
 先加入识别pk 的函数
 
@@ -389,8 +389,8 @@ PASS
 
 至此，今天的目标已经完成的差不多了，难得贴了这么多代码，已经正经的不像是我了
 
-![正经](http://blog-img.luanruisong.com/blog/img/20210223182121.png)
+![正经](https://blog-img.luanruisong.com/blog/img/20210223182121.png)
 
 本期应该可以说是自打使用Hugo建立bolg以来，代码贴的最多的一期了，所以今天这个活，是不是。。
 
-![整挺好](http://blog-img.luanruisong.com/blog/img/20210223165228.png)
+![整挺好](https://blog-img.luanruisong.com/blog/img/20210223165228.png)

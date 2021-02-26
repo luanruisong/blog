@@ -26,13 +26,13 @@ keywords:
 
 大年初一，在这给各位拜年啦！
 
-![拜年](http://blog-img.luanruisong.com/blog/img/20210212181901.png)
+![拜年](https://blog-img.luanruisong.com/blog/img/20210212181901.png)
 
 由于就地过年实在无聊，所以大年初一准备先小填一下自己挖的坑。
 
 今天咱们就先来聊聊我们的sql生成器，我准备叫他sqlBuilder（~~起名太难了UDB大哥别打我~~）
 
-![挨打](http://blog-img.luanruisong.com/blog/img/20210212182720.png)
+![挨打](https://blog-img.luanruisong.com/blog/img/20210212182720.png)
 
 文章代码都会收录在[gitbug](https://github.com/luanruisong/borm)当中，想看看的同学请自取
 
@@ -175,8 +175,8 @@ Process finished with exit code 0
 
 同时也基本满足了我们1，2两个目标，下一步就是本人最期待的golang relect包的环节（~~大过年的，今天就这样了~~）
 
-![期待](http://blog-img.luanruisong.com/blog/img/20210212214038.png)
+![期待](https://blog-img.luanruisong.com/blog/img/20210212214038.png)
 
 至此，我们第一篇关于sqlBuilder的文章到此就结束了呢。
 
-![敬礼](http://blog-img.luanruisong.com/blog/img/20210212213305.png)
+![敬礼](https://blog-img.luanruisong.com/blog/img/20210212213305.png)

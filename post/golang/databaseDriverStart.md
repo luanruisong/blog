@@ -29,17 +29,17 @@ keywords:
 
 由于疫情的原因，也决定就地过节，所以最后的这两天，如何快乐的摸鱼就成了重中之重！
 
-![摸鱼](http://blog-img.luanruisong.com/blog/img/20210209162230.png)
+![摸鱼](https://blog-img.luanruisong.com/blog/img/20210209162230.png)
 
 无所事事，却又不甘心真的摸鱼，想做一个对社会有贡献的人，所以还是决定，开一个坑强迫自己学习吧。
 
-![学习](http://blog-img.luanruisong.com/blog/img/20210209162358.png)
+![学习](https://blog-img.luanruisong.com/blog/img/20210209162358.png)
 
 新坑以学习为最终目的，我们把目光瞄向了golang的数据库驱动，也可以理解为 database/sql包的二开
 
 其实在几年前也做过类似的事情，但是如今看来惨不忍睹，无论是代码质量、设计思路，属实都感觉8太行
 
-![8太行](http://blog-img.luanruisong.com/blog/img/20210209162736.png)
+![8太行](https://blog-img.luanruisong.com/blog/img/20210209162736.png)
 
 当然，如果有想翻我黑历史的同学也欢迎，传送门 --> [github](https://github.com/luanruisong/lql)
 
@@ -47,7 +47,7 @@ keywords:
 
 我们先上几个主流的ORM瞅瞅，毕竟咱们是处于学习和练习的目的，高星框架的大腿还是要抱紧！
 
-![抱大腿](http://blog-img.luanruisong.com/blog/img/20210209163004.png)
+![抱大腿](https://blog-img.luanruisong.com/blog/img/20210209163004.png)
 
 |框架|支持数据库|star| doc |
 | --- | --- | --- | --- |
@@ -59,7 +59,7 @@ keywords:
 
 不过不要气馁，非主流打败主流，也不是不可能的
 
-![gdg](http://blog-img.luanruisong.com/blog/img/20210209163716.png)
+![gdg](https://blog-img.luanruisong.com/blog/img/20210209163716.png)
 
 ### 设计
 
@@ -78,10 +78,10 @@ keywords:
 
 不过分自负，也不妄自菲薄，抱着学习的目的，坑已挖好
 
-![挖坑](http://blog-img.luanruisong.com/blog/img/20210209164818.png)
+![挖坑](https://blog-img.luanruisong.com/blog/img/20210209164818.png)
 
 至于什么时候填嘛。。。
 
 很快。。。 很快。。。
 
-![溜](http://blog-img.luanruisong.com/blog/img/20210209164503.png)
+![溜](https://blog-img.luanruisong.com/blog/img/20210209164503.png)

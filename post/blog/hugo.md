@@ -26,7 +26,7 @@ keywords:
 
 本来想直接贴链接水几篇blog来的，对于我这个想法，身边的朋友都表示非常支持
 
-![人干事](http://blog-img.luanruisong.com/blog/img/20210205132500.png)
+![人干事](https://blog-img.luanruisong.com/blog/img/20210205132500.png)
 
 而且发现笔记落灰严重 && 链接泛滥 && 自己都没咋看
 
@@ -42,7 +42,7 @@ keywords:
 
     溜~!
 
-    ![溜](http://blog-img.luanruisong.com/blog/img/20210205132516.png)
+    ![溜](https://blog-img.luanruisong.com/blog/img/20210205132516.png)
 
  2. Hugo的安装
     - 二进制安装 (Mac用户专享)
@@ -143,13 +143,13 @@ keywords:
 
 是的，写到这里那一定是要有花里胡哨的骚操作的，不然就不是我了
 
-![美滋滋](http://blog-img.luanruisong.com/blog/img/20210205132558.png)
+![美滋滋](https://blog-img.luanruisong.com/blog/img/20210205132558.png)
 
 我发现使用nodejs构建静态blog的童鞋们，都喜欢把整个静态页面丢到git上去
 
 对我来说，每次要上传辣么大的文件，实在是考验我与github之间这若即若离的关系
 
-![郁闷](http://blog-img.luanruisong.com/blog/img/20210205132616.png)
+![郁闷](https://blog-img.luanruisong.com/blog/img/20210205132616.png)
 
 所以我下定决心，要玩点花里胡哨的东西！！！
 
@@ -175,7 +175,7 @@ cd $1 && hugo
 
 流程图奉上 （画完图觉得有点蠢，然而我不想改了）
 
-![流程](http://blog-img.luanruisong.com/blog/img/20210205132632.png)
+![流程](https://blog-img.luanruisong.com/blog/img/20210205132632.png)
 
 ## 完结撒花
 
@@ -183,4 +183,4 @@ cd $1 && hugo
 
 果然，我还是那个无情的blog机器
 
-![颤抖吧，凡人](http://blog-img.luanruisong.com/blog/img/20210205132651.png)
+![颤抖吧，凡人](https://blog-img.luanruisong.com/blog/img/20210205132651.png)

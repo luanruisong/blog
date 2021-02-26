@@ -63,7 +63,7 @@ keywords:
 被搜索引擎收录，仅仅是我们SEO的第一步，那么如何提高我们文章在搜索引擎当中的权重呢？
 
 这个时候，老夫灵光一闪，医美行业相对比较重视SEO，所以一个人出现在了我的脑海
-![嘉哥](http://blog-img.luanruisong.com/blog/img/20210207192207.png)
+![嘉哥](https://blog-img.luanruisong.com/blog/img/20210207192207.png)
 
 ~~天地良心，这个备注我是被逼的~~
 
@@ -71,15 +71,15 @@ keywords:
 
 人选确定，果断像我嘉哥求助(~~疯狂微信轰炸~~)
 
-![打电话](http://blog-img.luanruisong.com/blog/img/20210207192518.png)
+![打电话](https://blog-img.luanruisong.com/blog/img/20210207192518.png)
 
-![打电话](http://blog-img.luanruisong.com/blog/img/20210207192353.png)
+![打电话](https://blog-img.luanruisong.com/blog/img/20210207192353.png)
 
 经过我长达**15**秒的寒暄，我们开始进入主题
 
 教练，我想做SEO。
 
-![打篮球](http://blog-img.luanruisong.com/blog/img/20210207192725.png)
+![打篮球](https://blog-img.luanruisong.com/blog/img/20210207192725.png)
 
 教练说，SEO的基础，在于这几个标签
 
@@ -112,17 +112,17 @@ Hugo的title 是根据模板渲染出来的
 
 当然，醉心于软件开发的我，对于长尾词这个概念肯定是一脸懵逼的
 
-![一脸懵逼](http://blog-img.luanruisong.com/blog/img/20210207193451.png)
+![一脸懵逼](https://blog-img.luanruisong.com/blog/img/20210207193451.png)
 
 这时，嘉哥及时解惑
 
-![长尾词](http://blog-img.luanruisong.com/blog/img/20210207193719.png)
+![长尾词](https://blog-img.luanruisong.com/blog/img/20210207193719.png)
 
 嘉哥给出的建议，title标签要使用长尾词，提高再搜索中的竞争力
 
 内页（也就是body）里面的标题，要使用h1标签，尽量不要使用h2,h3,h4等，因为
 
-![h1](http://blog-img.luanruisong.com/blog/img/20210207193942.png)
+![h1](https://blog-img.luanruisong.com/blog/img/20210207193942.png)
 
 #### 关于关键词
 
@@ -167,12 +167,12 @@ keywords:
 
 一下午的时间，就这么再一边轰炸嘉哥一边跟Hugo模板斗智斗勇之中过去了。
 
-![人间疾苦](http://blog-img.luanruisong.com/blog/img/20210207200247.png)
+![人间疾苦](https://blog-img.luanruisong.com/blog/img/20210207200247.png)
 
 就在我准备继续轰炸，这时嘉哥表示
 
-![溜了](http://blog-img.luanruisong.com/blog/img/20210207200016.png)
+![溜了](https://blog-img.luanruisong.com/blog/img/20210207200016.png)
 
 哦，我这该死的，无处安放的，溢出屏幕的魅力啊~
 
-![可爱](http://blog-img.luanruisong.com/blog/img/20210207200132.png)
+![可爱](https://blog-img.luanruisong.com/blog/img/20210207200132.png)

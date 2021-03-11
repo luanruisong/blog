@@ -106,7 +106,7 @@ func HalfAutoUpdate(set interface{}, where interface{}) (SqlBuilder, error) {
 }
 ```
 
-这样是非常不合理的，所以我们新加一个tag明明为『dbw』,值我们来做几个枚举值
+这样是非常不合理的，所以我们新加一个tag命名为『dbw』,然后我们来做几个枚举值
 
 ```go
 const (

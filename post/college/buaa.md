@@ -18,6 +18,8 @@ keywords:
     - "开题"
 ---
 
+## 开题
+
 ### 1. 毕设开题
 
 平台地址 [http://bhcj.webtrn.cn/](http://bhcj.webtrn.cn/)
@@ -55,3 +57,33 @@ keywords:
 1. 换浏览器操作
 
 2. 登录后直接访问 [http://bhcj.webtrn.cn/entity/student/graduate/graduate/regbegincourse_edit.jsp](http://bhcj.webtrn.cn/entity/student/graduate/graduate/regbegincourse_edit.jsp) 同时也发现，他后面跟的id参数没啥实际意义
+
+## 信息采集
+
+### 平台及如何登录
+
+平台地址 [http://47.110.138.192/](http://47.110.138.192/)
+
+首次访问需要注册
+
+![注册登录](https://blog-img.luanruisong.com/blog/img/20210316113710.png)
+
+注册后登录上传即可
+
+### 照片审核
+
+图片审核不通过常见原因：
+
+1. 图片要求1024*1280并且是100Kb以上的图片
+
+2. 不要提交大头照，身体拍摄至胸部
+
+3. 头部完整，照片清晰。
+
+4. 不要使用翻拍的照片
+
+5. 不要提交自拍照。
+
+6. 不要使用后期软件将图片拉大提交，这样图片模糊依旧无法通过审核.
+
+7. 不要在杂乱的背景前拍照.17.不要佩戴首饰。

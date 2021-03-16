@@ -1,7 +1,7 @@
 ---
-title: "关于北航成考 毕设相关"
+title: "关于北航成考毕业相关"
 date: 2021-03-16T09:58:52+08:00
-description: "开题报告修改的问题"
+description: "北航成考毕业的路不好走，一个个灾难性的平台，叫人生死难料"
 categories:
     - "Other"
 tags:

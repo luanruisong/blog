@@ -69,7 +69,7 @@ panic: runtime error: invalid memory address or nil pointer dereference
 [signal SIGSEGV: segmentation violation code=0x1 addr=0x0 pc=0x10a6a45]
 
 goroutine 1 [running]:
-main.(*MessageImpl).Topic(0x0, 0xc00000e018, 0xc00006af48)
+main.(*MessageImpl).PrintT(0x0, 0xc00000e018, 0xc00006af48)
         main.go:15 +0x5
 main.fmtMsg(0x10ec440, 0x0)
         main.go:23 +0xa4
@@ -77,7 +77,7 @@ main.main()
         main.go:32 +0x56
 ```
 
-很明显 
+很明显，这行代码识别出现了问题
 
 ```go
 if m == nil {
@@ -85,7 +85,7 @@ if m == nil {
 }
 ```
 
-这行代码识别出现了问题，那么问题来了 ，为什么我明明返回的nil但是却不能识别呢？
+那么问题来了 ，为什么我明明返回的nil但是却不能识别呢？
 
 ### 解决方案
 

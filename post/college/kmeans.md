@@ -36,7 +36,7 @@ keywords:
 
 ![棒棒](https://blog-img.luanruisong.com/blog/img/20210318114732.jpg)
 
-### 结题过程
+### 解题过程
 
 #### 参数
 

@@ -218,7 +218,7 @@ func power(i []float64, f float64) []float64 {
 }
 ```
 
-划分簇之后，重新计算质心的方法
+根据分簇计算质心的方法
 
 ```go
 func getCenter(g [][]Point) []Point {

@@ -253,11 +253,11 @@ func max(a ...float64) float64 {
 }
 ```
 
-以及，最终的k-means算法函数
+最终的k-means算法函数
 
 ```go
 
-func KMeans(loopLimit, maxDistance, k int, center []Point, data []Point) []Res {
+func KMeans(loopLimit, maxDistance, k int, center, data []Point) []Res {
     var (
         res    = make([]Res, k) //创建最终返回结果
         groups [][]Point        //用于记录最后的分簇结果

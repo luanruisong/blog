@@ -150,7 +150,7 @@ func newGroup(k int) [][]Point {
         groups[i] = make([]Point, 0)
     }
     return groups
-    }
+}
 ```
 
 计算所有样本与每个质心的距离
@@ -188,7 +188,7 @@ func splitGroup(groups [][]Point, data []Point, distances [][]float64) {
 }
 ```
 
-接下来是我为了欧几里得距离算法准备的集合函数
+接下来是我为了欧几里得距离算法准备的几个函数
 
 主要功能就是计算两个Point之间的距离
 

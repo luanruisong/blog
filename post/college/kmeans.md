@@ -1,6 +1,6 @@
 ---
 title: "k-means初探"
-date: 2021-03-16T09:58:52+08:00
+date: 2021-03-18T12:25:28+08:00
 description: "k-means 算法原理及golang实现"
 categories:
     - "Development"

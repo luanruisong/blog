@@ -41,7 +41,6 @@ interact
 
 所以准备拿go直接实现一个我想要的样子。
 
-
 ### 给自己立需求
 
 给自己确定的需求我准分两大部分
@@ -92,7 +91,7 @@ type SSHConfig struct {
 
 ```go
 func (s *SSHConfig) SaveToPath(path string) error {
-    b, e := json.MarshalIndent(s, "", "	")
+    b, e := json.MarshalIndent(s, "", " ")
     if e != nil {
         return e
     }
@@ -279,7 +278,6 @@ func Connect(ip string, port int, cfg *ssh.ClientConfig) (*ssh.Client, error) {
 所以以我本人的一己之力，成功的让go的跨平台成为了一个笑话
 
 ![可笑](https://blog-img.luanruisong.com/blog/img/20210401163647.png)
-
 
 拉来帮我测试windows的小伙伴，也用一种神奇的目光看着我。
 

@@ -287,7 +287,9 @@ func Connect(ip string, port int, cfg *ssh.ClientConfig) (*ssh.Client, error) {
 
 就在此时，我再stackoverflow上面发现了一个神奇的包 [containerd/console](https://github.com/containerd/console)
 
-这个包完全实现了我需要的目的，解决了我跨平台时终端大小获取的问题
+这个包完全实现了我需要的目的，通过使用编译选项的方式解决了我跨平台时终端大小获取的问题
+
+同时也成功的在windows下采用了他该用的指令集（虽然我不知道是啥，但不是VT100）
 
 所以，补全了我代码拼图的最后一块
 

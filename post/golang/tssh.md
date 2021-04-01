@@ -432,7 +432,7 @@ sudo wget -O $tag $down$version/tssh-$suffex
 sudo chmod +x $tag
 ```
 
-这里是直接把二进制文件放到了***/usr/local/bin/tssh***
+这里是直接把二进制文件放到了 **/usr/local/bin/tssh**
 
 所以需要sudo 并输入本机密码，后续的chmode +x 也是一样
 

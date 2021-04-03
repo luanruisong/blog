@@ -18,6 +18,22 @@ keywords:
 
 ![sorry](https://blog-img.luanruisong.com/blog/img/20210401160630.png)
 
+最近给自己写了一个ssh工具，属实是希望好好推广一下
+
+![求求你](https://blog-img.luanruisong.com/blog/img/20210403110013.png)
+
+地址 [https://github.com/luanruisong/tssh](https://github.com/luanruisong/tssh)
+
+欢迎小伙伴们下载使用
+
+如果喜欢的话，记得 star，fork，watch 三连击
+
+数据够了咱就上homebrew
+
+接下来咱们就聊一聊做这个玩意的心路历程
+
+### 给自己立需求
+
 在最近的工作当中，碰到了一些问题。
 
 主要是因为我习惯使用的 命令行ssh工具，不能存储密码导致的
@@ -26,7 +42,7 @@ keywords:
 
 大概是这个样子
 
-```excpet
+```shell
 spawn ssh $user@$host
 expect {
     "*password:" { send "$passwd\r" }
@@ -41,8 +57,6 @@ interact
 
 所以准备拿go直接实现一个我想要的样子。
 
-### 给自己立需求
-
 给自己确定的需求我准分两大部分
 
 1. 基础需求
@@ -50,6 +64,9 @@ interact
    2. 实现多种方式登录
 2. 支撑需求
    1. 提供命令行参数维护需要链接的服务器
+
+
+### 开搞
 
 基于以上两大部分，我再给细化成几个小点
 
@@ -62,8 +79,6 @@ interact
   - 修改一个服务
   - 删除一个服务
   - 查看服务列表
-
-### 开搞
 
 需求已经确定了，那我们现在开搞
 
@@ -371,12 +386,6 @@ var (
 
 flag.Parse()
 ```
-
-多的就不写了，有兴趣的朋友可以去[github](https://github.com/luanruisong/tssh)查看
-
-记得帮我 star，fork，watch 三连击
-
-数据够了咱就上homebrew
 
 ### 一键安装
 

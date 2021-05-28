@@ -547,7 +547,7 @@ func NewDB(driver, connStr string) (DataBase, error) {
 
 db相关的代码已经写完了，眼睛比较贼的小伙伴应该发现，我们还有一个接口没有用到。
 
-就是 ==Connector==
+就是 **Connector**
 
 这个接口是用在我们db统一初始化的地方，db包内部无需关心这些参数的问题，只需要基于最基本的sql包进行操作即可
 

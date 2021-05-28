@@ -543,7 +543,6 @@ func NewDB(driver, connStr string) (DataBase, error) {
 }
 ```
 
-
 ### 杂项
 
 db相关的代码已经写完了，眼睛比较贼的小伙伴应该发现，我们还有一个接口没有用到。

@@ -51,7 +51,7 @@ keywords:
 export PATH=$PATH:{/usr/local}/go/bin 
 ```
 
-=={} 部分要根据你具体安装到的目录来定==
+**{} 部分要根据你具体安装到的目录来定**
 
 刷新文件
 
@@ -78,7 +78,7 @@ go version
 - [Goland](https://www.jetbrains.com/go/)
 - [VSCode](https://code.visualstudio.com/)
 
-==注：goland收费，并且他家是维权狂魔==
+***注：goland收费，并且他家是维权狂魔**
 
 当然你可以下载free版本，能白嫖30天算30天
 
@@ -149,11 +149,13 @@ func main(){
 
 简单来说go语言的函数定义是这么个结构
 
-==func== **函数名**(**参数名** ==参数类型==) ==返回值类型== {
+```go
+func 函数名(参数名 参数类型) 返回值类型 {
     //代码代码代码
     //我不重要我不重要
-    ==return== 返回值
+    return 返回值
 }
+```
 
 - func关键字表示声明一个函数
 - 函数名（参数名 参数类型）返回值类型 定义了这个函数的出入参数

@@ -67,7 +67,7 @@ win小伙伴直接用此电脑->右键->设置->高级设置->环境变量设置
 go version
 ```
 
-查看安装一几环境变量配置情况
+查看安装环境变量配置情况
 
 ![UM9HqY](https://blog-img.luanruisong.com/blog/img/2021/07/15/UM9HqY.png)
 

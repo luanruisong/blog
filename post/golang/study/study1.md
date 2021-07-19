@@ -51,7 +51,7 @@ keywords:
 export PATH=$PATH:{/usr/local}/go/bin 
 ```
 
-**{}部分要根据你具体安装到的目录来定**
+Tips：**大括号部分要根据你具体安装到的目录来定**
 
 刷新文件
 

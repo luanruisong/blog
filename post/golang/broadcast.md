@@ -320,7 +320,7 @@ func TestOnNotice(t *testing.T) {
 
 ```
 
-这里主要测试了 **TestNoticeStation** 与 **OnNotice** 函数的使用场景
+这里主要测试了 **WaitForValue** 与 **OnNotice** 函数的使用场景
 
 从测试结果来看，可以很完美的对于数据传输以及信号通知。
 

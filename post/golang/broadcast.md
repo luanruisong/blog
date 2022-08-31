@@ -1,7 +1,7 @@
 ---
 title: "Emmmmm....Broadcast!!"
 date: 2022-08-31T16:50:40+08:00
-description: "关于广播通知的一些思考于实现"
+description: "关于广播通知的一些思考与实现"
 categories:
     - "Development"
 tags:

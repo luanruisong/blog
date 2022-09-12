@@ -1,16 +1,17 @@
 ---
 title: "WeakAuras 不完全指北"
-date: 2021-02-07T10:14:01+08:00
+date: 2022-09-12T10:14:01+08:00
 description: "绰号“wa不求人”是怎样练成的"
 categories:
-    - "Blog"
+    - "WeakAuras"
 tags:
-    - "SEO"
+    - "WeakAuras"
+    - "WA"
 keywords:
-    - "Blog"
-    - "Hugo"
-    - "SEO"
-    - "搜索引擎优化"
+    - "WeakAuras"
+    - "WA"
+    - "插件"
+    - "技能监控"
 ---
 
 

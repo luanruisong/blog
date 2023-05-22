@@ -65,14 +65,14 @@ go mod download
 
 ```shell
 go env -w GOPROXY=https://goproxy.cn,direct #配置七牛代理
-go env -w GOPRIVATE=*.xxxx.org #配置特定仓库不走代理
+go env -w GOPRIVATE=*.your_git.org #配置特定仓库不走代理
 ```
 
 ### 环境变量
 
 ```shell
 export GOPROXY=https://goproxy.cn,direct #配置七牛代理
-export GOPRIVATE=*.xxxx.org #配置特定仓库不走代理
+export GOPRIVATE=*.your_git.org #配置特定仓库不走代理
 ```
 
 ## 结束

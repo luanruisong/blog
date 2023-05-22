@@ -35,7 +35,7 @@ go mod init {project_name}
 
 ### go get
 
-引用一个go sdk（已jsoniter为例）
+引用一个go sdk（jsoniter为例）
 
 ```shell
 go get github.com/json-iterator/go
@@ -43,7 +43,7 @@ go get github.com/json-iterator/go
 
 ### tidy
 
-tidy (go sum文件出现了损坏，或者没有写入gomod文件等等)
+go sum文件出现了损坏，或者没有写入gomod文件等等
 
 ```shell
  go mod tidy     

@@ -79,3 +79,4 @@ export GOPRIVATE=*.xxxx.org #配置特定仓库不走代理
 
 ![](https://blog-img.luanruisong.com/blog/img/2022/202305220931607.png)
 
+

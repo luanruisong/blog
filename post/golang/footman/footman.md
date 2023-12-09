@@ -16,7 +16,7 @@ keywords:
     - "内存kafka"
 ---
 
-## 序
+# 序
 
 啦啦啦啦啦啦,我是写bug的小行家
 
@@ -34,7 +34,7 @@ keywords:
 
 下面我们就聊聊今天的主角,我叫他 [**Footman**](![](https://github.com/luanruisong/footman))
 
-## 起因
+# 起因
 
 起因说起来比较简单,最初是我们在ws服务内部,服务端对于客户端主动发起的消息推送,是基于channel 或者 阻塞信号等行为实现的.
 
@@ -62,7 +62,7 @@ keywords:
 
 ![](https://blog-img.luanruisong.com/blog/img/2022/202312091423681.png)
 
-## 干货时间
+# 干货时间
 
 首先,我们实现的目的,参考的kafka的逻辑
 
@@ -74,7 +74,7 @@ keywords:
 
 ![](https://blog-img.luanruisong.com/blog/img/2022/202312091433754.png)
 
-### Topic
+## Topic
 
 先来看topic结构体以及相关函数
 
@@ -151,7 +151,7 @@ func (t *Topic) AppendMessage(msg *message) {
 
 并且利用atomic包进行原子操作,避免锁机制的引入
 
-### Server
+## Server
 
 Server 主要是针对与多个topic的管理,包含创建,初始化,删除等等功能
 
@@ -210,13 +210,13 @@ func (s *Svr) ProduceMessage(msg *message) {
 }
 ```
 
-### Consumer
+## Consumer
 
 Consumer就比较特殊了
 
 因为在使用过程中,期待的功能包含多订阅,topic offset记录等等,所以这里又拆分出来几个组件
 
-#### processor
+### processor
 
 processor 主要用于管理当前consumer对于某个topic的进度
 
@@ -291,7 +291,7 @@ func (p *processors) Find() ([]*message, error) {
 }
 ```
 
-#### Consumer
+### Consumer
 
 由于核心的查询功能,在processors里已经实现,所以Consumer这里只需要管理processors以及对于find函数进行一些超时管理即可
 
@@ -352,7 +352,7 @@ func (c *Consumer) ReadMessage(d time.Duration) ([]*message, error) {
 
 ```
 
-## 结尾
+# 结尾
 
 以上就是整体的实现过程以及思路了.
 

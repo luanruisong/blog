@@ -22,7 +22,7 @@ keywords:
 
 ![](https://blog-img.luanruisong.com/blog/img/2022/202312091411145.gif)
 
-举例上次水文,又过去了半年咯~~
+距离上次水文,又过去了半年咯~~
 
 作为打工人来讲,天天忙忙碌碌一回头,却不知自己都干了点啥....
 
@@ -58,7 +58,7 @@ keywords:
 
 ![](https://blog-img.luanruisong.com/blog/img/2022/202312091421617.png)
 
-经过讨论,首先从数据结构来讲,可以使用一个ring buffer来存储,其次在实现细节来讲,希望摒弃掉lock的操作
+经过讨论,首先从数据结构来讲,Ring Buffer,其次在实现细节来讲,希望摒弃掉lock的操作
 
 ![](https://blog-img.luanruisong.com/blog/img/2022/202312091423681.png)
 
@@ -66,9 +66,9 @@ keywords:
 
 首先,我们实现的目的,参考的kafka的逻辑
 
-在这里就存在了Topic的角色(ringBuffer的主体)
+在这里就存在了Topic的角色(RingBuffer的主体)
 
-且针对与内部进行了一些多topic订阅的处理(Consumer结构对照)
+且针对与内部进行了一些多Topic订阅的处理
 
 下面挨个的介绍一下内部用到的组件
 
@@ -153,7 +153,7 @@ func (t *Topic) AppendMessage(msg *message) {
 
 #### Server
 
-server 主要是针对与多个topic的管理,包含创建,初始化,删除等等功能
+Server 主要是针对与多个topic的管理,包含创建,初始化,删除等等功能
 
 ```go
 

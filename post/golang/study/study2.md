@@ -20,7 +20,7 @@ keywords:
 
 ## go mod
 
-golang 在1.13版本正事启用了go mod 作为官方的包管理工具，彻底统一了包管理工具群魔乱舞的场面。（有点书同文、车同轨的意思）
+golang 在1.13版本正式启用了go mod 作为官方的包管理工具，彻底统一了包管理工具群魔乱舞的场面。（有点书同文、车同轨的意思）
 
 ![](https://blog-img.luanruisong.com/blog/img/2022/202305220925660.png)
 

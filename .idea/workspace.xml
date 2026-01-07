@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="682908ee-1f67-4193-b7f8-9d7c078a9f34" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/post/golang/footman/footman.md" beforeDir="false" afterPath="$PROJECT_DIR$/post/golang/footman/footman.md" afterDir="false" />
-    </list>
+    <list default="true" id="682908ee-1f67-4193-b7f8-9d7c078a9f34" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

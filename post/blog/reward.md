@@ -105,7 +105,7 @@ tctip 仓库README 推荐引入的js 版本为
 <script src="//static.tctip.com/tctip-1.0.4.min.js"></script>
 ```
 
-根据我的测试，样式靴微有那么点问题
+根据我的测试，样式稍微有那么点问题
 
 ![一点点](https://blog-img.luanruisong.com/blog/img/20210205131838.png)
 

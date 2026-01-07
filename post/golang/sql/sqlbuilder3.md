@@ -6,14 +6,14 @@ categories:
     - "Development"
 tags:
     - "Golang"
-    - "Reflact"
+    - "Reflect"
     - "database"
     - "ORM"
     - "BORM"
 keywords:
     - "Golang"
     - "Go"
-    - "Reflact"
+    - "Reflect"
     - "sqlDriver"
     - "database"
     - "数据库"
@@ -82,7 +82,7 @@ func TableName(i interface{}) string {
 func ColumnName(t reflect.StructField) string {
     column := t.Tag.Get("db")
     if len(column) == 0 {
-        //入无自定义column，取field名称的蛇形
+        //如无自定义column，取field名称的蛇形
         column = stringx.SnakeName(t.Name)
     }
     return column
@@ -277,7 +277,7 @@ func HalfAutoUpdate(set interface{}, where interface{}) (SqlBuilder, error) {
 func IsPk(t reflect.StructField) bool {
     tag := t.Tag.Get("pk")
     if len(tag) == 0 {
-        //入无自定义column，取field名称的蛇形
+        //如无自定义column，取field名称的蛇形
         return false
     }
     return tag == "1"

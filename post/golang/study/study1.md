@@ -45,7 +45,7 @@ keywords:
 
 一般来讲，安装成功之后，需要配置环境变量
 
-拿mac举例，需要再~/.bash_prefile里面加上一行
+拿mac举例，需要在~/.bash_profile里面加上一行
 
 ```shell
 export PATH=$PATH:{/usr/local}/go/bin 
@@ -56,7 +56,7 @@ export PATH=$PATH:{/usr/local}/go/bin
 刷新文件
 
 ```shell
-source ~/.bash_prefile
+source ~/.bash_profile
 ```
 
 win小伙伴直接用此电脑->右键->设置->高级设置->环境变量设置即可

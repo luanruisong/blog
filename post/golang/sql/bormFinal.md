@@ -6,14 +6,14 @@ categories:
     - "Development"
 tags:
     - "Golang"
-    - "Reflact"
+    - "Reflect"
     - "database"
     - "ORM"
     - "BORM"
 keywords:
     - "Golang"
     - "Go"
-    - "Reflact"
+    - "Reflect"
     - "sqlDriver"
     - "database"
     - "数据库"
@@ -109,7 +109,7 @@ keywords:
     }
     Tx interface {
         Executor
-        Comment() error
+        Commit() error
         RollBack() error
     }
 ```
@@ -163,7 +163,7 @@ func NewInserter(exec SqlExecutor, sb sqlbuilder.InsertBuilder) Inserter {
 
 #### deleter
 
-自动删除这部分，基本是对于自动化where的一个处理，耽美逻辑部分也比较简单，就不多赘述了。
+自动删除这部分，基本是对于自动化where的一个处理，但逻辑部分也比较简单，就不多赘述了。
 
 ```go
 type (
@@ -505,7 +505,7 @@ type (
     }
 )
 
-func (d *tx) Comment() error {
+func (d *tx) Commit() error {
     return d.db.Commit()
 }
 

@@ -6,14 +6,14 @@ categories:
     - "Development"
 tags:
     - "Golang"
-    - "Reflact"
+    - "Reflect"
     - "database"
     - "ORM"
     - "BORM"
 keywords:
     - "Golang"
     - "Go"
-    - "Reflact"
+    - "Reflect"
     - "sqlDriver"
     - "database"
     - "数据库"
@@ -41,8 +41,8 @@ keywords:
 //fetchResult 通过列名抓取响应属性生成一个类型指针
 func fetchResult(rows *sql.Rows, itemT reflect.Type, columns []string) (reflect.Value, error) {
     var err error
-    objT := reflect.New(itemT) //创建一个薪的指针
-    values := make([]interface{}, len(columns)) //根据查询列明构建需要获取的field指针切片
+    objT := reflect.New(itemT) //创建一个新的指针
+    values := make([]interface{}, len(columns)) //根据查询列名构建需要获取的field指针切片
     fieldMap, _ := reflectx.StructMap(objT.Interface())//根据反射获取列名与具体field的映射
     tmpMap := make(map[string]reflect.Value)//创建一个临时map 用于处理time的赋值
     //根据查询列明循环

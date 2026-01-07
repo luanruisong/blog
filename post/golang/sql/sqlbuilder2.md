@@ -6,14 +6,14 @@ categories:
     - "Development"
 tags:
     - "Golang"
-    - "Reflact"
+    - "Reflect"
     - "database"
     - "ORM"
     - "BORM"
 keywords:
     - "Golang"
     - "Go"
-    - "Reflact"
+    - "Reflect"
     - "sqlDriver"
     - "database"
     - "数据库"
@@ -191,7 +191,7 @@ func AutoInsert(i interface{}) (SqlBuilder, error) {
         //获取tag，也就是自定义的column
         column := t.Tag.Get("db")
         if len(column) == 0 {
-            //入无自定义column，取field名称的蛇形
+            //如无自定义column，取field名称的蛇形
             column = stringx.SnakeName(t.Name)
         }
         // "-" 表示忽略，空数据 也直接跳过

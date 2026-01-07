@@ -32,7 +32,7 @@ keywords:
 
 感觉有些价值,整理一下
 
-下面我们就聊聊今天的主角,我叫他 [**Footman**](![](https://github.com/luanruisong/footman))
+下面我们就聊聊今天的主角,我叫他 [**Footman**](https://github.com/luanruisong/footman)
 
 ## 起因
 

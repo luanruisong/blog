@@ -6,14 +6,14 @@ categories:
     - "Development"
 tags:
     - "Golang"
-    - "Reflact"
+    - "Reflect"
     - "database"
     - "ORM"
     - "BORM"
 keywords:
     - "Golang"
     - "Go"
-    - "Reflact"
+    - "Reflect"
     - "sqlDriver"
     - "database"
     - "数据库"

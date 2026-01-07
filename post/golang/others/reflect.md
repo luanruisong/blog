@@ -6,11 +6,11 @@ categories:
     - "Development"
 tags:
     - "Golang"
-    - "Reflact"
+    - "Reflect"
 keywords:
     - "Golang"
     - "Go"
-    - "Reflact"
+    - "Reflect"
     - "反射"
     - "解析"
 ---
